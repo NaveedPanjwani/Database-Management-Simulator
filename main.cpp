@@ -8,19 +8,15 @@
 #include <string.h>
 #include <fstream>
 #include <sstream>
-#include <stdlib.h>
 #include <iomanip>
-#include <string>
 #include <stdexcept>
 #include <cstdlib>
 #include <string.h>
-#include <stdlib.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <netdb.h> 
 #include <pthread.h>
-#include <stdio.h>
 using namespace std;
 
 struct block {
