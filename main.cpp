@@ -132,7 +132,7 @@ int main()
 		p++;
 	}
 	pthread_t tid[p];
-	pthread_mutex_init(&lock, NULL); // Initialize access to 1
+	pthread_mutex_init(&lock, NULL); 
 
 	for (int i = 0; i < p; i++)
 	{
