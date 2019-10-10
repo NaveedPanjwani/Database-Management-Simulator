@@ -100,13 +100,6 @@ void *access_house(void *family_void_ptr){
 		pthread_cond_broadcast(&cond2);
 	}
 	pthread_mutex_unlock(&lock);
-	/*
-	pthread_mutex_lock(&lock);
-	if (positionheld[b.position - 1] = false) {
-		//pthread_cond_broadcast(&cond1);
-	}
-	pthread_mutex_unlock(&lock);
-	*/
 	return NULL;
 }
 
